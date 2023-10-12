@@ -1,0 +1,15 @@
+.rhombus-container {
+    width: 200px; /* Set the container's width and height to match your image */
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .rhombus-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover; /* Ensures the image scales properly within the rhombus */
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2px solid #000; /* You can change the border color and thickness */
+  }
