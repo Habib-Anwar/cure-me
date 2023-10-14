@@ -2,6 +2,8 @@ import React from 'react'
 import NavBar from '../../Shared/NavBar/NavBar'
 import './Home.css'
 import MoveImg from './MoveImg'
+import Service from '../Service'
+
 
 
 
@@ -30,6 +32,8 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </div></div>
+  </div>
+ <Service></Service>
+  </div>
   )
 }

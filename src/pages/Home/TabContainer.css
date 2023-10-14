@@ -1,0 +1,22 @@
+/* CSS */
+.tab-buttons {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  
+  .tab-buttons button {
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-buttons button.active {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Add other styles as needed */
+  
