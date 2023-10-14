@@ -3,6 +3,8 @@
     display: flex;
     gap: 4px;
     margin-bottom: 20px; /* Adjust the margin as needed */
+    border: 1px solid silver;
+    border-radius: 25px;
   }
   
   .tab-buttons button {
@@ -11,11 +13,14 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
+  border-radius: 25px;
+   
   }
   
   .tab-buttons button.active {
     background-color: #3498db;
     color: white;
+    border-radius: 25px;
   }
   
   /* Add other styles as needed */

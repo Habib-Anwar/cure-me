@@ -9,14 +9,14 @@ const TabItem = ({ image, title, description }) => {
     <div className="tab-item">
       <img src={image} alt={title} className='w-[550px
         ] h-[350px] rounded-md' />
-      <h2 className='text-3xl font-bold'>{title}</h2>
+      <h2 className='text-xl font-bold mt-4 mb-2'>{title}</h2>
       {showFullDescription ? (
         <p>{description}</p>
       ) : (
         <p>{description.slice(0, 100)}...</p>
       )}
-      <button onClick={() => setShowFullDescription(!showFullDescription)} className='btn btn-outline btn-error'>
-        {showFullDescription ? 'Hide Description' : 'More Details'}
+      <button onClick={() => setShowFullDescription(!showFullDescription)} className='btn btn-outline btn-error mt-2'>
+        {showFullDescription ? 'Hide Details' : 'More Details'}
       </button>
     </div>
   );
