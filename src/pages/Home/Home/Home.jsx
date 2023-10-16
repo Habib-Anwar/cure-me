@@ -3,6 +3,7 @@ import NavBar from '../../Shared/NavBar/NavBar'
 import './Home.css'
 import MoveImg from '../Home/MoveImg'
 import Service from '../Service'
+import Doctor from './Doctor'
 
 
 
@@ -37,6 +38,7 @@ export default function Home() {
   </div>
  <Service></Service>
   </div>
+  <Doctor></Doctor>
   </>
   )
 }

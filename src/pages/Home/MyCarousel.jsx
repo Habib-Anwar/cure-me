@@ -6,13 +6,16 @@ import { Navigation } from 'swiper/modules';
 export default function MyCarousel() {
   return (
     <div className="max-w-screen-xl mx-auto mt-8">
+     <div className='text-center'><h1 className='text-3xl font-bold mb-2'>What Our Patients Says</h1>
+      <p>"Your customer support team is exceptional! They were incredibly helpful and patient in resolving my issue. I appreciate the outstanding service I received."</p>
+      </div> 
        <Swiper
         slidesPerView={2}
         centeredSlides={true}
         spaceBetween={30}
         navigation={true}
         modules={[ Navigation]}
-        className="mySwiper"
+        className="mySwiper mt-8"
       >
         <SwiperSlide><div className="card w-96 bg-base-100 shadow-xl">
           <div className='flex'>

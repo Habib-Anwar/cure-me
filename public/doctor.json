@@ -1,0 +1,30 @@
+[
+    {
+      "name": "Karyen Anderson",
+      "title": "BTP - Senior Physiotherapist",
+      "location": "Dhanmondi, Dhaka, Bangladesh",
+      "availability": "Available On Mon, 22 December",
+      "fee": "$15",
+      "rating": 4.5, 
+      "image_url": "https://i.ibb.co/3zG9P9F/doc1.png"
+    },
+    {
+      "name": "John Smith",
+      "title": "Cardiologist",
+      "location": "New York, USA",
+      "availability": "Available On Wed, 18 December",
+      "fee": "$25",
+      "rating": 4.8, 
+      "image_url": "https://i.ibb.co/MCTmVh2/doc2.png"
+    },
+    {
+      "name": "Samantha Brown",
+      "title": "Dentist",
+      "location": "Los Angeles, USA",
+      "availability": "Available On Tue, 17 December",
+      "fee": "$20",
+      "rating": 4.2, 
+      "image_url": "https://i.ibb.co/Ry2d3cy/doc3.png"
+    }
+  ]
+  
