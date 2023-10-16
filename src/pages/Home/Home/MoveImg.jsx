@@ -1,9 +1,9 @@
 import React from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import './MoveImg.css'
-import docImg1 from '../../../../public/images/doc1.png'
-import docImg2 from '../../../../public/images/doc2.jpg'
-import docImg3 from '../../../../public/images/doc3.jpg'
+import docImg1 from '../../../assets/images/doc1.png'
+import docImg2 from '../../../assets/images/doc2.jpg'
+import docImg3 from '../../../assets/images/doc3.jpg'
 
 export default function MoveImg() {
   return (

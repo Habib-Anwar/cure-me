@@ -2,6 +2,8 @@ import React from 'react'
 import serviceImg from '../../assets/doctor-3.png'
 import TabContainer from './TabContainer'
 import { HiOutlineClock, HiOutlineMapPin, HiPhoneArrowUpRight } from "react-icons/hi2";
+import MyCarousel from './MyCarousel';
+
 
 export default function Service() {
   return (
@@ -36,6 +38,9 @@ export default function Service() {
 <p className='-mt-2'>+88 01750 00 00 00</p>
   </div>
 </div>
+    </div>
+    <div>
+      <MyCarousel></MyCarousel>
     </div>
     </>
   )

@@ -1,14 +1,16 @@
 import React from 'react'
 import NavBar from '../../Shared/NavBar/NavBar'
 import './Home.css'
-import MoveImg from './MoveImg'
+import MoveImg from '../Home/MoveImg'
 import Service from '../Service'
+
 
 
 
 
 export default function Home() {
   return (
+    <>
     <div> <div className="hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/ggXfKW3/bgimage.jpg)'}}>
       
     <div className="hero-overlay bg-opacity-60"></div>
@@ -35,5 +37,6 @@ export default function Home() {
   </div>
  <Service></Service>
   </div>
+  </>
   )
 }
