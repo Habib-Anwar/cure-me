@@ -4,6 +4,7 @@ import './Home.css'
 import MoveImg from '../Home/MoveImg'
 import Service from '../Service'
 import Doctor from './Doctor'
+import ContactUs from './ContactUs/ContactUs'
 
 
 
@@ -39,6 +40,7 @@ export default function Home() {
  <Service></Service>
   </div>
   <Doctor></Doctor>
+  <ContactUs></ContactUs>
   </>
   )
 }
