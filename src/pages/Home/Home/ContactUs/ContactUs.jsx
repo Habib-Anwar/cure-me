@@ -88,7 +88,7 @@ export default function ContactUs() {
                                             type="text"
                                             name=""
                                             id=""
-                                            placeholder="Enter your full name"
+                                            placeholder="Enter email address"
                                             class="block w-full px-4 py-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:ring-orange-500 focus:border-orange-500 caret-orange-500"
                                         />
                                     </div>

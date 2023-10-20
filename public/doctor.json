@@ -1,30 +1,252 @@
 [
     {
+      "_id": "01",
       "name": "Karyen Anderson",
       "title": "BTP - Senior Physiotherapist",
       "location": "Dhanmondi, Dhaka, Bangladesh",
       "availability": "Available On Mon, 22 December",
       "fee": "$15",
       "rating": 4.5, 
-      "image_url": "https://i.ibb.co/3zG9P9F/doc1.png"
+      "image_url": "https://i.ibb.co/3zG9P9F/doc1.png",
+      "overview": {
+        "aboutMe": "I am a skilled and experienced healthcare professional specializing in physiotherapy, also known as physical therapy. This position typically involves me working as a senior level within a healthcare facility or clinic, and it often comes with increased responsibilities and leadership roles compared to junior or entry-level physiotherapists.",
+        "education": [
+          {
+            "university": "American Dental Medical University",
+            "degree": "BDS",
+            "startYear": 1998,
+            "endYear": 2003
+          },
+          {
+            "university": "American Dental Medical University",
+            "degree": "MDS",
+            "startYear": 2003,
+            "endYear": 2005
+          }
+        ],
+        "workExperience": [
+          {
+            "clinic": "Glowing Smiles Family Dental Clinic",
+            "startYear": 2010,
+            "endYear": "Present",
+            "duration": "5 years"
+          },
+          {
+            "clinic": "Comfort Care Dental Clinic",
+            "startYear": 2007,
+            "endYear": 2010,
+            "duration": "3 years"
+          },
+          {
+            "clinic": "Dream Smile Dental Practice",
+            "startYear": 2005,
+            "endYear": 2007,
+            "duration": "2 years"
+          }
+        ],
+        "services": [
+          "Tooth cleaning",
+          "Root Canal Therapy",
+          "Implants",
+          "Composite Bonding",
+          "Fissure Sealants",
+          "Surgical Extractions"
+        ],
+        "awards": [
+          {
+            "date": "July 2019",
+            "awardName": "Humanitarian Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "March 2011",
+            "awardName": "Certificate for International Volunteer Service",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "May 2008",
+            "awardName": "The Dental Professional of The Year Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          }
+        ],
+        "specializations": [
+          "Children Care",
+          "Dental Care",
+          "Oral and Maxillofacial Surgery",
+          "Orthodontist",
+          "Periodontist",
+          "Prosthodontics"
+        ]
+      },
+      "locations": "Location 1, Location 2",
+      "reviews": "5 reviews",
+      "businessHours": "Mon-Fri: 9 AM - 5 PM"
     },
     {
+      "_id":"02",
       "name": "John Smith",
       "title": "Cardiologist",
       "location": "New York, USA",
       "availability": "Available On Wed, 18 December",
       "fee": "$25",
       "rating": 4.8, 
-      "image_url": "https://i.ibb.co/MCTmVh2/doc2.png"
+      "image_url": "https://i.ibb.co/MCTmVh2/doc2.png",
+      "overview": {
+        "aboutMe": "I am a skilled and experienced healthcare professional specializing in physiotherapy, also known as physical therapy. This position typically involves me working as a senior level within a healthcare facility or clinic, and it often comes with increased responsibilities and leadership roles compared to junior or entry-level physiotherapists.",
+        "education": [
+          {
+            "university": "American Dental Medical University",
+            "degree": "BDS",
+            "startYear": 1998,
+            "endYear": 2003
+          },
+          {
+            "university": "American Dental Medical University",
+            "degree": "MDS",
+            "startYear": 2003,
+            "endYear": 2005
+          }
+        ],
+        "workExperience": [
+          {
+            "clinic": "Glowing Smiles Family Dental Clinic",
+            "startYear": 2010,
+            "endYear": "Present",
+            "duration": "5 years"
+          },
+          {
+            "clinic": "Comfort Care Dental Clinic",
+            "startYear": 2007,
+            "endYear": 2010,
+            "duration": "3 years"
+          },
+          {
+            "clinic": "Dream Smile Dental Practice",
+            "startYear": 2005,
+            "endYear": 2007,
+            "duration": "2 years"
+          }
+        ],
+        "services": [
+          "Tooth cleaning",
+          "Root Canal Therapy",
+          "Implants",
+          "Composite Bonding",
+          "Fissure Sealants",
+          "Surgical Extractions"
+        ],
+        "awards": [
+          {
+            "date": "July 2019",
+            "awardName": "Humanitarian Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "March 2011",
+            "awardName": "Certificate for International Volunteer Service",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "May 2008",
+            "awardName": "The Dental Professional of The Year Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          }
+        ],
+        "specializations": [
+          "Children Care",
+          "Dental Care",
+          "Oral and Maxillofacial Surgery",
+          "Orthodontist",
+          "Periodontist",
+          "Prosthodontics"
+        ]
+      },
+      "locations": "Location 1, Location 2",
+      "reviews": "5 reviews",
+      "businessHours": "Mon-Fri: 9 AM - 5 PM"
     },
     {
+      "_id":"03",
       "name": "Samantha Brown",
       "title": "Dentist",
       "location": "Los Angeles, USA",
       "availability": "Available On Tue, 17 December",
       "fee": "$20",
       "rating": 4.2, 
-      "image_url": "https://i.ibb.co/Ry2d3cy/doc3.png"
+      "image_url": "https://i.ibb.co/Ry2d3cy/doc3.png",
+      "overview": {
+        "aboutMe": "I am a skilled and experienced healthcare professional specializing in physiotherapy, also known as physical therapy. This position typically involves me working as a senior level within a healthcare facility or clinic, and it often comes with increased responsibilities and leadership roles compared to junior or entry-level physiotherapists.",
+        "education": [
+          {
+            "university": "American Dental Medical University",
+            "degree": "BDS",
+            "startYear": 1998,
+            "endYear": 2003
+          },
+          {
+            "university": "American Dental Medical University",
+            "degree": "MDS",
+            "startYear": 2003,
+            "endYear": 2005
+          }
+        ],
+        "workExperience": [
+          {
+            "clinic": "Glowing Smiles Family Dental Clinic",
+            "startYear": 2010,
+            "endYear": "Present",
+            "duration": "5 years"
+          },
+          {
+            "clinic": "Comfort Care Dental Clinic",
+            "startYear": 2007,
+            "endYear": 2010,
+            "duration": "3 years"
+          },
+          {
+            "clinic": "Dream Smile Dental Practice",
+            "startYear": 2005,
+            "endYear": 2007,
+            "duration": "2 years"
+          }
+        ],
+        "services": [
+          "Tooth cleaning",
+          "Root Canal Therapy",
+          "Implants",
+          "Composite Bonding",
+          "Fissure Sealants",
+          "Surgical Extractions"
+        ],
+        "awards": [
+          {
+            "date": "July 2019",
+            "awardName": "Humanitarian Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "March 2011",
+            "awardName": "Certificate for International Volunteer Service",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          },
+          {
+            "date": "May 2008",
+            "awardName": "The Dental Professional of The Year Award",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus."
+          }
+        ],
+        "specializations": [
+          "Children Care",
+          "Dental Care",
+          "Oral and Maxillofacial Surgery",
+          "Orthodontist",
+          "Periodontist",
+          "Prosthodontics"
+        ]
+      },
+      "locations": "Location 1, Location 2",
+      "reviews": "5 reviews",
+      "businessHours": "Mon-Fri: 9 AM - 5 PM"
     }
   ]
   

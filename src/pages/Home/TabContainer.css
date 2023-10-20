@@ -3,14 +3,13 @@
     display: flex;
     gap: 4px;
     margin-bottom: 20px; /* Adjust the margin as needed */
-    border: 1px solid silver;
     border-radius: 25px;
   }
   
   .tab-buttons button {
     padding: 10px 20px; /* Adjust the padding as needed */
     background-color: #f0f0f0;
-    border: none;
+    border: 1px solid silver;
     cursor: pointer;
     transition: background-color 0.3s;
   border-radius: 25px;

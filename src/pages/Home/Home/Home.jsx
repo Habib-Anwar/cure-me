@@ -20,17 +20,17 @@ export default function Home() {
     <div className="hero-content text-center text-white">
       
       <div className="max-w-md">
-        <div className='-mt-56'>
+        <div className='-mt-4 lg:-mt-40'>
 
       <NavBar></NavBar>
         </div>
-        <div className='grid grid-cols-2 gap-48 mt-40'>
+        <div className='grid grid-cols-1 gap-48 mt-40 lg:grid-cols-2'>
         <div className='-ml-72'>
         <h1 className="mb-5 text-5xl font-bold">Your Best Medical Help Center</h1>
         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
         <button className="btn btn-primary">All Service</button>
         </div>
-        <div className='mt-8'>
+        <div className='-mt-44 lg:mt-8'>
 <MoveImg></MoveImg>
         </div>
         </div>

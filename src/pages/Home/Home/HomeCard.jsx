@@ -6,16 +6,11 @@ const HomeCard = ({card}) => {
     const {name, title, location, availability, fee, rating, image_url} = card
   return (
     <div className='mx-auto mt-8 mb-8'>
-      <Link
-        to={`/service-details`}
-        className=''
-      >
         <img
           alt='home-img'
           className='w-[325px] h-[200px] rounded-lg'
           src={image_url}
         />
-      </Link>
       <h2 className='text-gray-900 title-font text-md font-medium'>
         {name}
         </h2>
@@ -32,7 +27,9 @@ const HomeCard = ({card}) => {
         <p className='mt-2 text-gray-500 text-xs tracking-widest title-font flex gap-3'>
             <HiOutlineCurrencyDollar className="text-xl"></HiOutlineCurrencyDollar> {fee}</p>
       </div>
+      <Link to='/doctorProfile'>
       <button className="btn btn-outline btn-error w-full">View Profile</button>
+      </Link>
     </div>
   )
 }
